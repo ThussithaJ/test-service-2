@@ -6,7 +6,7 @@ name: first-test-project_pr-default-staging_app_8579c32 Pipeline (Skyu Generated
       - synchronize
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_7b28d879-18a5-4a5d-b22c-5cc91b3f7275
+    types: pipeline_538f0ad5-850d-4b90-a648-8653ddc1169d
 env:
   ENCODED_PIPELINE_SECRET: ${{secrets.TESTSERVICE2_FIRSTTESTPROJECT_PRDEFAULTSTAGING_APP_8579C32}}
   COMMIT_ID: ${{github.event.client_payload.commitId || github.sha || github.run_id}}
